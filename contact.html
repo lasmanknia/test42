@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style_tablet.css">
+    <link rel="stylesheet" href="style_mobile.css">
+    <link rel="stylesheet" href="style_pc.css">
+    <link rel="stylesheet" href="style_nav.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <style>
+      body{
+        height: 100vh;
+        overflow-y: hidden;
+      }
+              .list:nth-child(3){
+            background-color: var(--color);
+  
+}
+.lekha{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.middle{
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  color: #3498db;
+  overflow: hidden;
+  position: relative;
+}
+.btn i{
+  line-height: 50px;
+  font-size: 20px;
+  transition: 0.2s linear;
+}
+.btn:hover i{
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: #3498db;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.btn:hover::before{
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0%{
+    left: -110%;
+    top: 90%;
+  }50%{
+    left: 10%;
+    top: -30%;
+  }100%{
+    top: -10%;
+    left: -10%;
+  }
+}
+.con{
+    padding: 10px;
+    border: dotted rgb(239, 125, 11);
+    width: 90vw;
+    margin: 0 auto;
+}
+.con a,p{
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: monospace;
+    margin: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+  <div class="logopic">
+    <img src="logo.png" alt="">
+         <ul>
+            <li><a href=""><ion-icon name="call-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="chatbubble-outline"></ion-icon></a></li>
+            <li><a href=""><ion-icon name="qr-code-outline"></ion-icon></a></li>
+            <li><a id="dark-mode-toggle" href=""><ion-icon name="contrast-outline"></ion-icon></a></li>
+         </ul>
+  </div>
+
+   <!--navbar-->
+   <nav>
+    <div class="navigation">
+        <ul>
+          <li class="list active">
+            <a href="index.html">
+              <span class="icon" id="a1">
+                <ion-icon name="home-outline"></ion-icon>
+              </span>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="member.html">
+              <span class="icon">
+                <ion-icon name="people-outline"></ion-icon>
+              </span>
+              <span class="text">Profile</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="contact.html">
+              <span class="icon">
+                <ion-icon name="chatbubble-outline"></ion-icon>
+              </span>
+              <span class="text">Message</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="post.html">
+              <span class="icon">
+                <ion-icon name="albums-outline"></ion-icon>
+              </span>
+              <span class="text">Photos</span>
+            </a>
+          </li>
+          <li class="list">
+            <a href="login.html">
+              <span class="icon">
+                <ion-icon name="log-in-outline"></ion-icon>
+              </span>
+              <span class="text">Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--navbar End-->
+ 
+         <h2>Contact Us</h2>
+         <div class="lekha">টাকার পয়সা লেনদেনের সময় আমরা দুই এক টাকার হিসাবে খুব তেমন একটা গুরুত্ব দেই না। তবে " ছোট ছোট বালুকণা বিন্দু বিন্দু জল গড়ে তোলে মহাদেশ সাগর অতল "আপনার প্রতিদিনের সেই ১ টাকার সর্বোত্তম ব্যবহারের স্বার্থে উদ্যোগী হয়েছে একদল তরুণ-তরুণী। প্রতি সদস্যের প্রতিদিন ১ টাকা (বা মাসে ৩০ টাকা) করে সংগ্রহ করে সমাজসেবায় অংশ নেয়াই এই তরুণ-তরুণীদের "উদ্যোগ"।</div>
+         <div class="con">
+            <p>Number - <a href="tel:01816267777">01816267777</a></p>
+            <p>Number - <a href="tel:01788-702616">01788-702616</a></p>
+            <p>Gmail - <a href="mainto:uddog.sw@gmail.com">uddog.sw@gmail.com</a></p>
+            <p>Gmail - <a href="mailto:uddog.ri@gmail.com">uddog.ri@gmail.com</a></p>
+        </div>
+         <div class="contact">
+            <div class="middle">
+                <a class="btn" href="https://www.facebook.com/uddog.e.how/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="btn" href="https://www.facebook.com/groups/1213903963339433">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+                <a class="btn" href="#">
+                  <i class="fab fa-facebook-messenger"></i>
+                </a>
+              </div>
+         </div>
+
+         <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
